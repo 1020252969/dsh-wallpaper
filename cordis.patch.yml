@@ -1,0 +1,18 @@
+# dsh-shell-wallpaper bundle patch.
+#
+# One host row, no config here: the image path and the readability knobs live in
+# the profile's cordis.patch.yml so they can be changed without reinstalling.
+#
+# - insert:
+#     - id: wallpaper
+#       name: 'dsh-wallpaper'
+#       config:
+#         imagePath: 'C:/path/to/picture.jpg'
+#         opacity: 1
+#         blur: 0
+#         panelAlpha: 0.82
+#         scrim: 'rgba(8, 9, 14, 0.35)'
+
+- insert:
+    - id: wallpaper
+      name: 'dsh-shell-wallpaper'
